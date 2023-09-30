@@ -4,6 +4,10 @@
    "app_key" : "application.generated.unity.cooperativevrgame.exe",
    "bindings" : {
       "/actions/buggy" : {
+         "chords" : [],
+         "haptics" : [],
+         "poses" : [],
+         "skeleton" : [],
          "sources" : [
             {
                "inputs" : {
@@ -25,9 +29,6 @@
             },
             {
                "inputs" : {
-                  "click" : {
-                     "output" : "/actions/buggy/in/brake"
-                  },
                   "position" : {
                      "output" : "/actions/buggy/in/steering"
                   }
@@ -37,9 +38,6 @@
             },
             {
                "inputs" : {
-                  "click" : {
-                     "output" : "/actions/buggy/in/brake"
-                  },
                   "position" : {
                      "output" : "/actions/buggy/in/steering"
                   }
@@ -50,7 +48,7 @@
             {
                "inputs" : {
                   "click" : {
-                     "output" : "/actions/buggy/in/reset"
+                     "output" : "/actions/buggy/in/brake"
                   }
                },
                "mode" : "button",
@@ -59,11 +57,47 @@
             {
                "inputs" : {
                   "click" : {
+                     "output" : "/actions/buggy/in/brake"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/x"
+            },
+            {
+               "inputs" : {
+                  "click" : {
                      "output" : "/actions/buggy/in/reset"
                   }
                },
                "mode" : "button",
+               "path" : "/user/hand/left/input/y"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/buggy/in/reset"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/y"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/buggy/in/brake"
+                  }
+               },
+               "mode" : "button",
                "path" : "/user/hand/right/input/a"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/buggy/in/reset"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/b"
             }
          ]
       },
@@ -116,6 +150,10 @@
                   }
                },
                "mode" : "button",
+               "parameters" : {
+                  "click_activate_threshold" : "0.8",
+                  "click_deactivate_threshold" : "0.7"
+               },
                "path" : "/user/hand/left/input/grip"
             },
             {
@@ -126,7 +164,7 @@
                },
                "mode" : "button",
                "parameters" : {
-                  "click_activate_threshold" : "0.75",
+                  "click_activate_threshold" : "0.8",
                   "click_deactivate_threshold" : "0.7",
                   "force_input" : "value"
                },
@@ -149,7 +187,7 @@
                },
                "mode" : "button",
                "parameters" : {
-                  "click_activate_threshold" : "0.75",
+                  "click_activate_threshold" : "0.8",
                   "click_deactivate_threshold" : "0.7"
                },
                "path" : "/user/hand/right/input/trigger"
@@ -161,6 +199,10 @@
                   }
                },
                "mode" : "button",
+               "parameters" : {
+                  "click_activate_threshold" : "0.8",
+                  "click_deactivate_threshold" : "0.7"
+               },
                "path" : "/user/hand/right/input/grip"
             },
             {
@@ -170,7 +212,7 @@
                   }
                },
                "mode" : "trigger",
-               "path" : "/user/hand/left/input/trigger"
+               "path" : "/user/hand/left/input/grip"
             },
             {
                "inputs" : {
@@ -179,7 +221,7 @@
                   }
                },
                "mode" : "trigger",
-               "path" : "/user/hand/right/input/trigger"
+               "path" : "/user/hand/right/input/grip"
             },
             {
                "inputs" : {
@@ -202,27 +244,16 @@
          ]
       },
       "/actions/platformer" : {
+         "chords" : [],
+         "haptics" : [],
+         "poses" : [],
+         "skeleton" : [],
          "sources" : [
             {
                "inputs" : {
                   "click" : {
                      "output" : "/actions/platformer/in/jump"
-                  }
-               },
-               "mode" : "button",
-               "path" : "/user/hand/left/input/joystick"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/platformer/in/jump"
-                  }
-               },
-               "mode" : "button",
-               "path" : "/user/hand/right/input/joystick"
-            },
-            {
-               "inputs" : {
+                  },
                   "position" : {
                      "output" : "/actions/platformer/in/move"
                   }
@@ -232,6 +263,9 @@
             },
             {
                "inputs" : {
+                  "click" : {
+                     "output" : "/actions/platformer/in/jump"
+                  },
                   "position" : {
                      "output" : "/actions/platformer/in/move"
                   }
@@ -244,13 +278,14 @@
    },
    "category" : "steamvr_input",
    "controller_type" : "pico_controller",
-   "description" : "(auto-remapped from vive_controller)",
+   "description" : "(auto-remapped from oculus_touch)",
    "interaction_profile" : "",
-   "name" : "vive_controller",
+   "name" : "pico",
    "options" : {
+      "compatibility_mode" : true,
       "simulate_hmd" : true,
       "simulate_rendermodel" : true,
-      "simulated_controller_type" : "vive_controller"
+      "simulated_controller_type" : "oculus_touch"
    },
    "simulated_actions" : []
 }
