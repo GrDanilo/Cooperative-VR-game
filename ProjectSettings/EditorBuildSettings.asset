@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WinScene.unity
     guid: 503892afbef13f44585cec5948b9ea9e
+  - enabled: 1
+    path: Assets/Scenes/DeathScene.unity
+    guid: 94d3df80eba22a645b7492ae1a776bcd
   m_configObjects:
     Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: c319eb801a3879042a2b0d5fd5301dad, type: 2}
     Unity.XR.PXR.Settings: {fileID: 11400000, guid: 4641397be83691240869806fd6023717, type: 2}
