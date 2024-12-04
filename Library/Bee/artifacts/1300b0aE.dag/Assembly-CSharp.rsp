@@ -380,6 +380,7 @@
 "Assets/_A my/Scripts/Death.cs"
 "Assets/_A my/Scripts/EndOfGame.cs"
 "Assets/_A my/Scripts/PlayerController.cs"
+"Assets/_A my/Scripts/PlayerStartPos.cs"
 -langversion:9.0
 
 /deterministic
