@@ -43,6 +43,7 @@
      <Compile Include="Assets\_A my\Scripts\EndOfGame.cs" />
      <Compile Include="Assets\Pickup\Scripts\RotateCamera.cs" />
      <Compile Include="Assets\_A my\Scripts\Death.cs" />
+     <Compile Include="Assets\_A my\Scripts\PlayerTrack.cs" />
      <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\CTI_LOD_Bark_Array_301.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

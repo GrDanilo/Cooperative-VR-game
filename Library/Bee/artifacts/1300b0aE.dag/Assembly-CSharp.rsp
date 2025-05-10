@@ -381,6 +381,7 @@
 "Assets/_A my/Scripts/EndOfGame.cs"
 "Assets/_A my/Scripts/PlayerController.cs"
 "Assets/_A my/Scripts/PlayerStartPos.cs"
+"Assets/_A my/Scripts/PlayerTrack.cs"
 -langversion:9.0
 
 /deterministic

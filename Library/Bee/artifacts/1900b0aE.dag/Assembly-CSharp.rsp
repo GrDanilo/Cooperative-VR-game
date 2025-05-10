@@ -378,8 +378,10 @@
 "Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/CTI Runtime Components/Scripts/CTI_CustomWind.cs"
 "Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/CTI Runtime Components/Scripts/CTI_Utils.cs"
 "Assets/Pickup/Scripts/RotateCamera.cs"
+"Assets/_A my/Scripts/Death.cs"
 "Assets/_A my/Scripts/EndOfGame.cs"
 "Assets/_A my/Scripts/PlayerController.cs"
+"Assets/_A my/Scripts/PlayerStartPos.cs"
 -langversion:9.0
 
 /deterministic

@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.21f1 (1b156197d683) revision 1774945'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'ru' Physical Memory: 32506 MB
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'ru' Physical Memory: 32506 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -15,7 +15,7 @@ C:/Users/Danii/MyGames/Cooperative VR game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51036
+50908
 Successfully changed project path to: C:/Users/Danii/MyGames/Cooperative VR game
 C:/Users/Danii/MyGames/Cooperative VR game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Users/Danii/MyGames/Cooperative VR game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [13484] Host "[IP] 192.168.8.170 [Port] 0 [Flags] 2 [Guid] 3181754824 [EditorId] 3181754824 [Version] 1048832 [Id] WindowsEditor(7,GrDan_loptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [21608] Host "[IP] 192.168.8.125 [Port] 0 [Flags] 2 [Guid] 4129206651 [EditorId] 4129206651 [Version] 1048832 [Id] WindowsEditor(7,GrDan_loptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [13484] Host "[IP] 192.168.8.170 [Port] 0 [Flags] 2 [Guid] 3181754824 [EditorId] 3181754824 [Version] 1048832 [Id] WindowsEditor(7,GrDan_loptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [21608] Host "[IP] 192.168.8.125 [Port] 0 [Flags] 2 [Guid] 4129206651 [EditorId] 4129206651 [Version] 1048832 [Id] WindowsEditor(7,GrDan_loptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 128.61 ms, found 15 plugins.
-Preloading 1 native plugins for Editor in 2.35 ms.
+Refreshing native plugins compatible for Editor in 102.70 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 1.23 ms.
 Initialize engine version: 2021.3.21f1 (1b156197d683)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/Danii/MyGames/Cooperative VR game/Assets
@@ -61,61 +61,61 @@ Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a5)
     Vendor:   NVIDIA
-    VRAM:     3977 MB
-    Driver:   31.0.15.4680
+    VRAM:     3964 MB
+    Driver:   32.0.15.7216
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56644
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005514 seconds.
+Registered in 0.005612 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 419 ms
-Refreshing native plugins compatible for Editor in 241.36 ms, found 15 plugins.
-Preloading 1 native plugins for Editor in 0.24 ms.
+Android Extension - Scanning For ADB Devices 242 ms
+Refreshing native plugins compatible for Editor in 93.93 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.499 seconds
+- Completed reload, in  0.847 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1499ms)
-		BeginReloadAssembly (148ms)
+	ReloadAssembly (848ms)
+		BeginReloadAssembly (78ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1238ms)
-			LoadAssemblies (144ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (681ms)
+			LoadAssemblies (76ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (149ms)
+			SetupTypeCache (99ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (990ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (511ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (504ms)
+				InitializePlatformSupportModulesInManaged (301ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (242ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (163ms)
-				ProcessInitializeOnLoadMethodAttributes (78ms)
+				RefreshPlugins (94ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (76ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007342 seconds.
+Registered in 0.006816 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Danii\MyGames\Cooperative VR game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Danii\MyGames\Cooperative VR game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 119.72 ms, found 15 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 90.06 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
 PXRLog [Build Check]RegisterBuildPlayerHandler,Already Do not show: False
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
@@ -129,43 +129,43 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  2.306 seconds
+- Completed reload, in  1.178 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2307ms)
-		BeginReloadAssembly (196ms)
+	ReloadAssembly (1179ms)
+		BeginReloadAssembly (118ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (1918ms)
-			LoadAssemblies (177ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (966ms)
+			LoadAssemblies (105ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (499ms)
+			SetupTypeCache (271ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (96ms)
-			SetupLoadedEditorAssemblies (1090ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (499ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (98ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (120ms)
-				BeforeProcessingInitializeOnLoad (139ms)
-				ProcessInitializeOnLoadAttributes (701ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				RefreshPlugins (90ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (277ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 1.37 ms, found 15 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.58 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
 Unloading 4233 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 48 unused Assets / (115.2 KB). Loaded Objects now: 4711.
-Memory consumption went from 189.0 MB to 188.9 MB.
-Total: 4.012000 ms (FindLiveObjects: 0.372300 ms CreateObjectMapping: 0.164300 ms MarkObjects: 3.267700 ms  DeleteObjects: 0.205400 ms)
+Memory consumption went from 189.1 MB to 189.0 MB.
+Total: 5.282400 ms (FindLiveObjects: 0.600300 ms CreateObjectMapping: 0.464100 ms MarkObjects: 3.991700 ms  DeleteObjects: 0.224400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -180,21 +180,39 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 3710.433076 seconds.
-  path: Assets/_A my/Scripts/PlayerStartPos.cs
-  artifactKey: Guid(27a90213ba3268c4ebfe0b61d16c36e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_A my/Scripts/PlayerStartPos.cs using Guid(27a90213ba3268c4ebfe0b61d16c36e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a854ad5896ed3f13b57ae61c575941') in 0.057460 seconds 
+  Time since last request: 212592.735523 seconds.
+  path: Assets/_A my/Materials/krasivyi-snimok-lesa-s-vysokimi-zelenymi-derev-ami.jpg
+  artifactKey: Guid(edffa086cb8ad2944bcc36ae17295e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_A my/Materials/krasivyi-snimok-lesa-s-vysokimi-zelenymi-derev-ami.jpg using Guid(edffa086cb8ad2944bcc36ae17295e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '944e3d83437daff1df26eff2e82326d5') in 0.171828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.318008 seconds.
+  path: Assets/_A my/Materials/krasivyi-snimok-lesa-s-vysokimi-zelenymi-derev-ami.jpg
+  artifactKey: Guid(edffa086cb8ad2944bcc36ae17295e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_A my/Materials/krasivyi-snimok-lesa-s-vysokimi-zelenymi-derev-ami.jpg using Guid(edffa086cb8ad2944bcc36ae17295e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c213a149e370bc65ad311d56336e57ea') in 0.328229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.923289 seconds.
+  path: Assets/_A my/Materials/krasivyi-snimok-lesa-s-vysokimi-zelenymi-derev-ami.jpg
+  artifactKey: Guid(edffa086cb8ad2944bcc36ae17295e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_A my/Materials/krasivyi-snimok-lesa-s-vysokimi-zelenymi-derev-ami.jpg using Guid(edffa086cb8ad2944bcc36ae17295e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89086bbf211d26d3f9fdb4c346f8779e') in 0.050147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 741.565265 seconds.
+  path: Assets/_A my/Scripts/PlayerTrack.cs
+  artifactKey: Guid(44caa3181d96fba4b8a3e573c3ac9cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_A my/Scripts/PlayerTrack.cs using Guid(44caa3181d96fba4b8a3e573c3ac9cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26fba48f9e29a6fe27db0899ca758d5') in 0.032896 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007263 seconds.
+Registered in 0.014124 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Danii\MyGames\Cooperative VR game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Danii\MyGames\Cooperative VR game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.15 ms, found 15 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
+Refreshing native plugins compatible for Editor in 2.92 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
 PXRLog [Build Check]RegisterBuildPlayerHandler,Already Do not show: False
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
@@ -207,40 +225,247 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 (Filename: D:/Pico/Developer kit for unity/PICO Unity Integration SDK_215/Editor/PXR_SDKBuildCheck.cs Line: 30)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.062 seconds
+- Completed reload, in  3.673 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1062ms)
-		BeginReloadAssembly (139ms)
+	ReloadAssembly (3675ms)
+		BeginReloadAssembly (359ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (108ms)
+		EndReloadAssembly (2907ms)
+			LoadAssemblies (339ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1807ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (676ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (474ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 13.80 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 4177 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (82.2 KB). Loaded Objects now: 4724.
+Memory consumption went from 188.4 MB to 188.3 MB.
+Total: 27.849100 ms (FindLiveObjects: 0.674500 ms CreateObjectMapping: 21.712400 ms MarkObjects: 5.237200 ms  DeleteObjects: 0.222800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005913 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Danii\MyGames\Cooperative VR game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Danii\MyGames\Cooperative VR game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+PXRLog [Build Check]RegisterBuildPlayerHandler,Already Do not show: False
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Unity.XR.PXR.Editor.PXR_SDKBuildCheck:.cctor () (at D:/Pico/Developer kit for unity/PICO Unity Integration SDK_215/Editor/PXR_SDKBuildCheck.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: D:/Pico/Developer kit for unity/PICO Unity Integration SDK_215/Editor/PXR_SDKBuildCheck.cs Line: 30)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.165 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1166ms)
+		BeginReloadAssembly (161ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (817ms)
-			LoadAssemblies (94ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (900ms)
+			LoadAssemblies (102ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (277ms)
+			SetupTypeCache (369ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (364ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (326ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
+				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (244ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (221ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 5.41 ms, found 15 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 4176 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (82.2 KB). Loaded Objects now: 4715.
-Memory consumption went from 183.9 MB to 183.8 MB.
-Total: 3.250300 ms (FindLiveObjects: 0.420400 ms CreateObjectMapping: 0.143800 ms MarkObjects: 2.483700 ms  DeleteObjects: 0.200400 ms)
+Refreshing native plugins compatible for Editor in 7.44 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 4177 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (82.2 KB). Loaded Objects now: 4728.
+Memory consumption went from 188.4 MB to 188.3 MB.
+Total: 5.005900 ms (FindLiveObjects: 0.487800 ms CreateObjectMapping: 0.465000 ms MarkObjects: 3.860300 ms  DeleteObjects: 0.190000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008886 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Danii\MyGames\Cooperative VR game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Danii\MyGames\Cooperative VR game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+PXRLog [Build Check]RegisterBuildPlayerHandler,Already Do not show: False
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Unity.XR.PXR.Editor.PXR_SDKBuildCheck:.cctor () (at D:/Pico/Developer kit for unity/PICO Unity Integration SDK_215/Editor/PXR_SDKBuildCheck.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: D:/Pico/Developer kit for unity/PICO Unity Integration SDK_215/Editor/PXR_SDKBuildCheck.cs Line: 30)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.113 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1114ms)
+		BeginReloadAssembly (169ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (859ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (302ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (354ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (239ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 11.42 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 4177 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (82.3 KB). Loaded Objects now: 4732.
+Memory consumption went from 188.4 MB to 188.3 MB.
+Total: 6.551700 ms (FindLiveObjects: 0.858300 ms CreateObjectMapping: 0.382600 ms MarkObjects: 5.060100 ms  DeleteObjects: 0.248900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007011 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Danii\MyGames\Cooperative VR game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Danii\MyGames\Cooperative VR game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.79 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+PXRLog [Build Check]RegisterBuildPlayerHandler,Already Do not show: False
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Unity.XR.PXR.Editor.PXR_SDKBuildCheck:.cctor () (at D:/Pico/Developer kit for unity/PICO Unity Integration SDK_215/Editor/PXR_SDKBuildCheck.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: D:/Pico/Developer kit for unity/PICO Unity Integration SDK_215/Editor/PXR_SDKBuildCheck.cs Line: 30)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.081 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1082ms)
+		BeginReloadAssembly (143ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (841ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (261ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (386ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (267ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 9.45 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 4177 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (82.1 KB). Loaded Objects now: 4736.
+Memory consumption went from 188.4 MB to 188.3 MB.
+Total: 6.352500 ms (FindLiveObjects: 0.513600 ms CreateObjectMapping: 0.882600 ms MarkObjects: 4.734600 ms  DeleteObjects: 0.219700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -255,296 +480,20 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 42.607912 seconds.
-  path: Assets/_A my/Scripts/PlayerStartPos.cs
-  artifactKey: Guid(27a90213ba3268c4ebfe0b61d16c36e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_A my/Scripts/PlayerStartPos.cs using Guid(27a90213ba3268c4ebfe0b61d16c36e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6657cabc063fcb4878594b92ef33f094') in 0.008724 seconds 
+  Time since last request: 738.101552 seconds.
+  path: Assets/_A my/Scripts/PlayerTrack.cs
+  artifactKey: Guid(44caa3181d96fba4b8a3e573c3ac9cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_A my/Scripts/PlayerTrack.cs using Guid(44caa3181d96fba4b8a3e573c3ac9cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '841431e8c72f771066cd86a2f0c053a3') in 0.015700 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005691 seconds.
+Registered in 0.006904 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Danii\MyGames\Cooperative VR game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Danii\MyGames\Cooperative VR game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 15 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-PXRLog [Build Check]RegisterBuildPlayerHandler,Already Do not show: False
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Unity.XR.PXR.Editor.PXR_SDKBuildCheck:.cctor () (at D:/Pico/Developer kit for unity/PICO Unity Integration SDK_215/Editor/PXR_SDKBuildCheck.cs:30)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: D:/Pico/Developer kit for unity/PICO Unity Integration SDK_215/Editor/PXR_SDKBuildCheck.cs Line: 30)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.040 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1040ms)
-		BeginReloadAssembly (131ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (825ms)
-			LoadAssemblies (91ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (271ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (354ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (237ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.89 ms, found 15 plugins.
-Preloading 1 native plugins for Editor in 0.30 ms.
-Unloading 4176 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (82.3 KB). Loaded Objects now: 4719.
-Memory consumption went from 183.9 MB to 183.8 MB.
-Total: 4.079300 ms (FindLiveObjects: 0.364500 ms CreateObjectMapping: 0.176700 ms MarkObjects: 2.975000 ms  DeleteObjects: 0.560800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008194 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Danii\MyGames\Cooperative VR game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Danii\MyGames\Cooperative VR game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.43 ms, found 15 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-PXRLog [Build Check]RegisterBuildPlayerHandler,Already Do not show: False
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Unity.XR.PXR.Editor.PXR_SDKBuildCheck:.cctor () (at D:/Pico/Developer kit for unity/PICO Unity Integration SDK_215/Editor/PXR_SDKBuildCheck.cs:30)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: D:/Pico/Developer kit for unity/PICO Unity Integration SDK_215/Editor/PXR_SDKBuildCheck.cs Line: 30)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.158 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1159ms)
-		BeginReloadAssembly (158ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (902ms)
-			LoadAssemblies (101ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (297ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (416ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (296ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.88 ms, found 15 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 4176 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (82.2 KB). Loaded Objects now: 4723.
-Memory consumption went from 183.9 MB to 183.8 MB.
-Total: 3.278300 ms (FindLiveObjects: 0.390600 ms CreateObjectMapping: 0.244500 ms MarkObjects: 2.523300 ms  DeleteObjects: 0.118400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007723 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Danii\MyGames\Cooperative VR game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Danii\MyGames\Cooperative VR game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 15 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-PXRLog [Build Check]RegisterBuildPlayerHandler,Already Do not show: False
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Unity.XR.PXR.Editor.PXR_SDKBuildCheck:.cctor () (at D:/Pico/Developer kit for unity/PICO Unity Integration SDK_215/Editor/PXR_SDKBuildCheck.cs:30)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: D:/Pico/Developer kit for unity/PICO Unity Integration SDK_215/Editor/PXR_SDKBuildCheck.cs Line: 30)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.988 seconds
-Domain Reload Profiling:
-	ReloadAssembly (989ms)
-		BeginReloadAssembly (144ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (758ms)
-			LoadAssemblies (102ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (260ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (326ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (216ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 5.38 ms, found 15 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 4176 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (82.3 KB). Loaded Objects now: 4727.
-Memory consumption went from 183.9 MB to 183.8 MB.
-Total: 4.383100 ms (FindLiveObjects: 0.381000 ms CreateObjectMapping: 0.136600 ms MarkObjects: 3.724300 ms  DeleteObjects: 0.139400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005707 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Danii\MyGames\Cooperative VR game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Danii\MyGames\Cooperative VR game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 15 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-PXRLog [Build Check]RegisterBuildPlayerHandler,Already Do not show: False
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Unity.XR.PXR.Editor.PXR_SDKBuildCheck:.cctor () (at D:/Pico/Developer kit for unity/PICO Unity Integration SDK_215/Editor/PXR_SDKBuildCheck.cs:30)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: D:/Pico/Developer kit for unity/PICO Unity Integration SDK_215/Editor/PXR_SDKBuildCheck.cs Line: 30)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.031 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1032ms)
-		BeginReloadAssembly (140ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (804ms)
-			LoadAssemblies (100ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (263ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (353ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (240ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.97 ms, found 15 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 4176 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (82.3 KB). Loaded Objects now: 4731.
-Memory consumption went from 183.9 MB to 183.8 MB.
-Total: 4.282300 ms (FindLiveObjects: 0.417400 ms CreateObjectMapping: 0.174400 ms MarkObjects: 3.466400 ms  DeleteObjects: 0.222400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006259 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Danii\MyGames\Cooperative VR game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Danii\MyGames\Cooperative VR game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.59 ms, found 15 plugins.
+Refreshing native plugins compatible for Editor in 1.20 ms, found 15 plugins.
 Preloading 1 native plugins for Editor in 0.10 ms.
 PXRLog [Build Check]RegisterBuildPlayerHandler,Already Do not show: False
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -558,109 +507,40 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 (Filename: D:/Pico/Developer kit for unity/PICO Unity Integration SDK_215/Editor/PXR_SDKBuildCheck.cs Line: 30)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.105 seconds
+- Completed reload, in  1.145 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1106ms)
-		BeginReloadAssembly (159ms)
+	ReloadAssembly (1146ms)
+		BeginReloadAssembly (162ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (53ms)
-		EndReloadAssembly (856ms)
-			LoadAssemblies (94ms)
+		EndReloadAssembly (887ms)
+			LoadAssemblies (107ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (302ms)
+			SetupTypeCache (278ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (359ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (401ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (241ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (270ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 7.37 ms, found 15 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Unloading 4176 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (82.3 KB). Loaded Objects now: 4735.
-Memory consumption went from 183.9 MB to 183.9 MB.
-Total: 4.018500 ms (FindLiveObjects: 0.342700 ms CreateObjectMapping: 0.118000 ms MarkObjects: 3.385700 ms  DeleteObjects: 0.170600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007393 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Danii\MyGames\Cooperative VR game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Danii\MyGames\Cooperative VR game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 3.97 ms, found 15 plugins.
-Preloading 1 native plugins for Editor in 0.22 ms.
-PXRLog [Build Check]RegisterBuildPlayerHandler,Already Do not show: False
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Unity.XR.PXR.Editor.PXR_SDKBuildCheck:.cctor () (at D:/Pico/Developer kit for unity/PICO Unity Integration SDK_215/Editor/PXR_SDKBuildCheck.cs:30)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: D:/Pico/Developer kit for unity/PICO Unity Integration SDK_215/Editor/PXR_SDKBuildCheck.cs Line: 30)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  4.185 seconds
-Domain Reload Profiling:
-	ReloadAssembly (4188ms)
-		BeginReloadAssembly (539ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (55ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (143ms)
-		EndReloadAssembly (3409ms)
-			LoadAssemblies (268ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (929ms)
-			ReleaseScriptCaches (13ms)
-			RebuildScriptCaches (151ms)
-			SetupLoadedEditorAssemblies (1827ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (52ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (4ms)
-				BeforeProcessingInitializeOnLoad (189ms)
-				ProcessInitializeOnLoadAttributes (1378ms)
-				ProcessInitializeOnLoadMethodAttributes (142ms)
-				AfterProcessingInitializeOnLoad (59ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (27ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 20.38 ms, found 15 plugins.
-Preloading 1 native plugins for Editor in 0.23 ms.
-Unloading 4176 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (82.3 KB). Loaded Objects now: 4739.
-Memory consumption went from 184.0 MB to 183.9 MB.
-Total: 14.281300 ms (FindLiveObjects: 1.238700 ms CreateObjectMapping: 1.744500 ms MarkObjects: 10.951700 ms  DeleteObjects: 0.341600 ms)
+Refreshing native plugins compatible for Editor in 9.13 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 4177 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (82.1 KB). Loaded Objects now: 4740.
+Memory consumption went from 188.4 MB to 188.4 MB.
+Total: 5.997100 ms (FindLiveObjects: 0.536600 ms CreateObjectMapping: 0.578400 ms MarkObjects: 4.637700 ms  DeleteObjects: 0.242600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
